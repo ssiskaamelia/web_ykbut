@@ -2,13 +2,14 @@ import "./App.css"
 import Header from "./components/common/header/Header"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import About from "./components/about/About"
-import CourseHome from "./components/allcourses/CourseHome"
-import Team from "./components/team/Team"
-import Pricing from "./components/pricing/Pricing"
-import Blog from "./components/blog/Blog"
+import CourseHome from "./components/business/CourseHome"
+import Team from "./components/services/Team"
+import Career from "./components/pricing/Pricing"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import MediaPage from "./components/mediaroom/GalleryPage"
+import Whistleblowing from "./components/home/wbs"
 function App() {
   return (
     <>
@@ -17,10 +18,12 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/courses' component={CourseHome} />
-          <Route exact path='/team' component={Team} />
-          <Route exact path='/pricing' component={Pricing} />
-          <Route exact path='/journal' component={Blog} />
+          <Route exact path='/business' component={CourseHome} />
+          <Route exact path='/services' component={Team} />
+          <Route exact path='/career' component={Career} />
+          <Route exact path='/media' component={MediaPage} />
+          <Route exact path='/whistleblowingsystem' component={Whistleblowing} />
+          {/* <Route exact path='/journal' component={Blog} /> */}
           <Route exact path='/contact' component={Contact} />
         </Switch>
         <Footer />

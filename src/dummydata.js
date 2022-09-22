@@ -2,21 +2,21 @@
 export const homeAbout = [
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
+    cover: "https://img.icons8.com/cute-clipart/344/city-buildings.png",
     title: "Yayasan Karya Bakti United Tractors",
     desc: "Yayasan Karya Bakti United Tractors (YKBUT) didirikan oleh PT United Tractors Tbk (UT) pada 27 Februari 2008.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+    cover: "https://img.icons8.com/cute-clipart/452/week-view.png",
     title: "Vision",
-    desc: "Menjadi Yayasan yang Terbaik di Tingkat Nasional dalam Memberikan Nilai Tambah dan Layanan bagi seluruh Stakeholder-nya.",
+    desc: "To be the Best Foundation at the National Level in Providing Added Value and Services to all Stakeholders.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+    cover: "https://img.icons8.com/cute-clipart/344/task.png",
     title: "Mission",
-    desc: "Menciptakan Sumber Daya Manusia yang Berkualitas, Berdaya Saing Tinggi, Profesional, dan Berkarakter Mandiri. Menciptakan Jaringan yang Luas dengan Industri Didalam dan Diluar Negeri. Mengelola Yayasan secara Bersih, Bertanggung Jawab dan Menomorsatukan Integritas. Menyediakan Layanan Kesehatan yang Berkualitas dan Terjangkau.",
+    desc: "Realizing Quality Human Resources, High Competitiveness, Professional, and Independent Character. Creating an Extensive Network with Industry at Home and Abroad. Manage the Foundation with Clean, Responsible, and Prioritizing Integrity. Providing Quality and Affordable Health Services.",
   },
 ]
 
@@ -90,7 +90,7 @@ export const coursesCard = [
   {
     id: 4,
     cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
+    coursesName: "PT KAMAJU",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -104,7 +104,7 @@ export const coursesCard = [
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
+    coursesName: "LSP ABI",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -128,48 +128,6 @@ export const coursesCard = [
     ],
     priceAll: "$500 All Course",
     pricePer: "$80 per month",
-  },
-  {
-    id: 7,
-    cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Price",
-        totalTime: "20 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
-  },
-  {
-    id: 8,
-    cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "80 lectures (200 hrs)",
-      },
-    ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
-  },
-  {
-    id: 9,
-    cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "50 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
   },
 ]
 export const online = [
@@ -256,19 +214,22 @@ export const team = [
     link:"/",
   },
   {
-    cover: "./images/team/t2.webp",
+    cover: "./images/team/t1.webp",
     name: "UT D'CARE",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
+    link:"/",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "POLKLINIK",
+    cover: "./images/team/t1.webp",
+    name: "POLIKLINIK",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
+    link:"/",
   },
   {
-    cover: "./images/team/t4.webp",
+    cover: "./images/team/t1.webp",
     name: "YKBUT LEARNING CENTER",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
+    link:"/",
   },
 ]
 export const price = [
@@ -295,28 +256,24 @@ export const price = [
 ]
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Apakah kunci agar lolos seleksi administrasi?",
+    desc: "Bacalah dengan teliti dan penuhi setiap kualifikasi lowongan yang sudah ditentukan. Hanya kandidat yang memenuhi kualifikasi yang akan kami undang untuk mengikuti tahap seleksi psikotest.",
   },
   {
     title: "Where It is hidden by default, until the collapse?",
     desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Bagaimana cara saya mendapatkan informasi terkait rekrutmen siswa UT School?",
+    desc: "Informasi seputar rekrutmen siswa UT School bisa di akses melalui akun Instagram @utschoolinsani.",
   },
   {
     title: "Where It is hidden by default, until the collapse?",
     desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Apakah ada biaya yang harus dibayar untuk mengikuti proses rekrutmen UT?",
+    desc: "YKBUT tidak melakukan pemungutan biaya apapun dalam seluruh proses rekrutmen. Mohon infokan kami apabila ada pihak yang mengatasnamakan UT dan melakukan pemungutan biaya kepada Anda.",
   },
 ]
 export const blog = [

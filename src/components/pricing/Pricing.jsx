@@ -3,19 +3,21 @@ import Back from "../common/back/Back"
 import PriceCard from "./PriceCard"
 import "./price.css"
 import Faq from "./Faq"
+import CareerInfo from "./CareerInfo"
 
-const Pricing = () => {
+const Career = () => {
   return (
     <>
-      <Back title='Career at YKBUT' />
+      <Back title='CAREER' />
       <section className='price padding'>
         <div className='container grid'>
           <PriceCard />
         </div>
       </section>
+      {/* <CareerInfo /> */}
       <Faq />
     </>
   )
 }
 
-export default Pricing
+export default Career

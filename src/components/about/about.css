@@ -5,6 +5,14 @@
   text-align: left;
   padding: 0;
 }
+/* image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 .aboutHome .left img {
   width: 100%;
   height: 100%;

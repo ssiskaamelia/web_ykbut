@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #f8f8f8;
 }
 /*------------global-----------*/
@@ -99,6 +99,7 @@ p {
   padding-right: 50px;
   color: #fff;
   text-align: center;
+  opacity: black 0.5;
 }
 .back h1 {
   font-size: 100px;

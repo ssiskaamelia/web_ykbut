@@ -1,49 +1,56 @@
-import React, { useState } from "react"
-import { Link } from "react-router-dom"
-import Head from "./Head"
-import "./header.css"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Head from "./Head";
+import "./header.css";
 
 const Header = () => {
-  const [click, setClick] = useState(false)
+  const [click, setClick] = useState(false);
 
   return (
     <>
       <Head />
       <header>
-        <nav className='flexSB'>
-          <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
+        <nav className="flexSB">
+          <ul
+            className={click ? "mobile-nav" : "flexSB "}
+            onClick={() => setClick(false)}
+          >
             <li>
-              <a href='/'>Home</a>
+              <a href="/">HOME</a>
             </li>
             <li>
-              <a href= '/about'>About Us</a>
+              <a href="/about">ABOUT US</a>
             </li>
             <li>
-              <a href='/pricing'>Career</a>
+              <a href="/career">CAREER</a>
             </li>
             <li>
-              <a href='/team'>Services</a>
+              <a href="/services">SERVICES</a>
             </li>
             <li>
-              <a href='/courses'>Business</a>
+              <a href="/business">BUSINESS</a>
             </li>
             <li>
-              <a href='/journal'>Gallery</a>
+              <a href="/media">MEDIA</a>
             </li>
             <li>
-              <a href='/contact'>Contact</a>
+              <a href="/contact">CONTACT</a>
             </li>
           </ul>
-          <div className='start'>
-            <div className='button'>YAYASAN KARYA BAKTI UT</div>
+          <div className="start">
+            <div className="button">YAYASAN KARYA BAKTI UT</div>
           </div>
-          <button className='toggle' onClick={() => setClick(!click)}>
-            {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
+          <button className="toggle" onClick={() => setClick(!click)}>
+            {click ? (
+              <i className="fa fa-times"> </i>
+            ) : (
+              <i className="fa fa-bars"></i>
+            )}
           </button>
         </nav>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

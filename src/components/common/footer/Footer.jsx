@@ -1,6 +1,7 @@
 import React from "react"
 import { blog } from "../../../dummydata"
 import "./footer.css"
+import Logo from "../../../assets/image/logo.png";
 
 const Footer = () => {
   return (
@@ -20,13 +21,35 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>LOGO</h1>
-            <span>YAYASAN KARYA BAKTI UT</span>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-
-            <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-instagram icon'></i>
-            <i className='fab fa-youtube icon'></i>
+          <div className="logo">
+            <a href="/" className="homeLink">
+              <img src={Logo} alt="LOGO YKBUT" className="image" />
+            </a>
+          </div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.google.com/"
+              className="nav-link p-0 text-muted mx-2"
+            >
+              <i className="fab fa-twitter icon"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/ykbutofficial/"
+              className="nav-link p-0 text-muted mx-2"
+            >
+              <i className="fab fa-instagram icon"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.google.com/"
+              className="nav-link p-0 text-muted mx-2"
+            >
+              <i className="fab fa-youtube icon"></i>
+            </a>
           </div>
           <div className='box link'>
             <h3>Explore</h3>
@@ -74,7 +97,7 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                Yayasan Karya Bakti UT. Jl. Raya Bekasi Km 22, Cakung. Jakarta Timur 13910
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>

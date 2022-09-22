@@ -3,6 +3,7 @@ import Heading from "../common/heading/Heading"
 import "./about.css"
 import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
+import { culture, ykbut4 } from "../../assets";
 import Testimonal from "../home/testimonal/Testimonal"
 
 const AboutCard = () => {
@@ -11,7 +12,7 @@ const AboutCard = () => {
       <section className='aboutHome'>
         <div className='container flexSB'>
           <div className='left row'>
-            <img src='./images/about.webp' alt='' />
+            <img src={ykbut4} alt='' />
           </div>
           <div className='right row'>
             <Heading subtitle='WHAT IS YKBUT ?' title='All About YKBUT' />
@@ -34,6 +35,14 @@ const AboutCard = () => {
         </div>
       </section>
       <Awrapper />
+      <div>
+      <Heading title="Caracter & Culture"/>
+        <img src={culture} alt="image-culture" class="center" />
+      </div>
+      <div>
+      <Heading subtitle='TEAMS' title="Our Teams"/>
+        {/* <img src={culture} alt="image-culture" class="center" /> */}
+      </div>
       <Testimonal />
     </>
   )

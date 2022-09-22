@@ -1,26 +1,33 @@
-import React from "react"
-import Heading from "../../common/heading/Heading"
-import "./Hero.css"
+import React from "react";
+import Heading from "../../common/heading/Heading";
+import "./Hero.scss";
 
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
-        <div className='container'>
-          <div className='row'>
-            <Heading subtitle='WELCOME TO' title='Yayasan Karya Bakti United Tractors' />
-            <p>SYNERGY | COMPETENT | SPEED | PRODUCTIVE</p>
-            <div className='button'>
-              <button className='primary-btn' style={{cursor: "pointer"}}>
-                LET'S JOIN UP <i className='fa fa-long-arrow-alt-right'></i>
-              </button>
+      <section className="hero">
+        <div className="container">
+          <div className="row">
+            <Heading subtitle="" title="YAYASAN KARYA BAKTI" />
+            <Heading title="UNITED TRACTORS" />
+            <div className="button" style={{ cursor: "pointer" }}>
+              <a href="/contact">
+                <button className="primary-btn">
+                  CONTACT US <i className="fa fa-long-arrow-alt-right"></i>
+                </button>
+              </a>
+              {/* <a href="about">
+                <button className="btn" style={{ cursor: "pointer" }}>
+                  Get started
+                </button>
+              </a> */}
             </div>
           </div>
         </div>
       </section>
-      <div className='margin'></div>
+      <div className="margin"></div>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
