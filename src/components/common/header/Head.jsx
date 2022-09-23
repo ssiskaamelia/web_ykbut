@@ -12,7 +12,7 @@ const Head = () => {
             </a>
           </div>
 
-          <div className="social">
+          <div className="social" style={{display:'flex'}}>
             <a
               target="_blank"
               rel="noreferrer"

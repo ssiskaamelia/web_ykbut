@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="row">
             <Heading subtitle="" title="YAYASAN KARYA BAKTI" />
             <Heading style={{color: "FF5C8D"}} title="UNITED TRACTORS" />
-            <div className="button" style={{ cursor: "pointer" }}>
+            <div className="button">
               <a href="/contact">
                 <button className="primary-btn">
                   CONTACT US <i className="fa fa-long-arrow-alt-right"></i>
