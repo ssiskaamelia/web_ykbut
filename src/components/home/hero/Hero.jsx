@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <Heading subtitle="" title="YAYASAN KARYA BAKTI" />
-            <Heading title="UNITED TRACTORS" />
+            <Heading style={{color: "FF5C8D"}} title="UNITED TRACTORS" />
             <div className="button" style={{ cursor: "pointer" }}>
               <a href="/contact">
                 <button className="primary-btn">

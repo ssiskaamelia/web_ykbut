@@ -3,8 +3,9 @@ import Heading from "../common/heading/Heading"
 import "./about.css"
 import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
-import { culture, ykbut4 } from "../../assets";
+import { culture, struktur, ykbut4 } from "../../assets";
 import Testimonal from "../home/testimonal/Testimonal"
+import Culture from "./culture"
 
 const AboutCard = () => {
   return (
@@ -36,12 +37,9 @@ const AboutCard = () => {
       </section>
       <Awrapper />
       <div>
-      <Heading title="Caracter & Culture"/>
+      {/* <Culture /> */}
+      <Heading subtitle='CULTURE' title="Caracter & Culture"/>
         <img src={culture} alt="image-culture" class="center" />
-      </div>
-      <div>
-      <Heading subtitle='TEAMS' title="Our Teams"/>
-        {/* <img src={culture} alt="image-culture" class="center" /> */}
       </div>
       <Testimonal />
     </>
