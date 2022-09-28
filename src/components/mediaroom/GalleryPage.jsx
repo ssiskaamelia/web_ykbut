@@ -1,31 +1,45 @@
-import React from "react";
+import { GalleryData } from "../../dummydata"
+import { useEffect, useState } from "react";
 import Back from "../common/back/Back";
-import { Container } from "@mui/material";
-import Imagelist from "./Imagelist";
-import { LightgalleryProvider } from "react-lightgallery";
+import "./Gallery.css"
+function App() {
 
-const MediaPage = () => {
+  const [data,setData] = useState([]);
+  const [collection,setCollection] = useState([]);
+
+  useEffect(()=>{
+
+    setData(GalleryData);
+    setCollection([... new Set(GalleryData.map((item)=> item.titile))])
+  },[]) 
+
+  const gallery_filter = (itemData) =>{
+    const filterData = GalleryData.filter((item)=> item.titile == itemData);
+    setData(filterData);
+  }
+
   return (
     <>
-      <Back title="MEDIA ROOM" />
-      <section className="blog padding">
-        <div className="container grid2">
-          <LightgalleryProvider
-            LightgallerySettings={{}}
-            galleryClassName="my_custom_classname"
-          >
-            <Imagelist />
-            <Container
-              maxWidth="lg"
-              sx={{ textAlign: "center", mt: "5rem", color: "#15c386" }}
-            >
-              <Imagelist />
-            </Container>
-          </LightgalleryProvider>
+    <Back subtitle="WBS" title="MEDIA ROOM" />
+    <div className="App">
+      <div className="galleryWrapper">
+        <div className="filterItem">
+          <ul>
+            <li><button onClick={()=> setData(GalleryData)}>All</button></li>
+            {
+              collection.map((item)=> <li><button onClick={()=>{gallery_filter(item)}}>{item}</button></li>)
+            }
+          </ul>
         </div>
-      </section>
+        <div className="galleryContainer">
+          {
+            data.map((item)=> <div  key={item.id} className="galleryItem"><img src={item.image  } /></div> )
+          }
+        </div>
+      </div>
+    </div>
     </>
   );
-};
+}
 
-export default MediaPage;
+export default App;

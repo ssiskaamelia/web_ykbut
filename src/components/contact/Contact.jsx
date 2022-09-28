@@ -2,8 +2,6 @@ import { color } from "@mui/system";
 import React from "react";
 import Back from "../common/back/Back";
 import "./contact.css";
-import Maps from "./maps";
-
 const Contact = () => {
   return (
     <>
@@ -11,14 +9,12 @@ const Contact = () => {
       <section className="contacts padding">
         <div className="container shadow flexSB">
           <div className="left row">
-            {/* <Maps /> */}
-            <div class="mapouter"style={{ height: "100%", padding: "40px"}}>
+            <div class="mapouter" style={{ height: "100%", padding: "40px" }}>
               <div class="gmap_canvas" style={{ height: "100%" }}>
-                <iframe id="gmap_canvas"
-                  src = "https://maps.google.com/maps?q=Jl.%20Raya%20Bekasi%20No.KM.%2022,%20Cakung%20Bar.,%20Kec.%20Cakung,%20Kota%20Jakarta%20Timur,%20Daerah%20Khusus%20Ibukota%20Jakarta%2013910&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                >
-
-                </iframe>
+                <iframe
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=Jl.%20Raya%20Bekasi%20No.KM.%2022,%20Cakung%20Bar.,%20Kec.%20Cakung,%20Kota%20Jakarta%20Timur,%20Daerah%20Khusus%20Ibukota%20Jakarta%2013910&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                ></iframe>
               </div>
             </div>
           </div>
@@ -26,19 +22,17 @@ const Contact = () => {
             <h1>CONTACT US</h1>
             <p>We're open for any suggestion or just to have a chat</p>
 
-            <div className="items grid2">
+            <div className="items">
               <div className="box">
                 <h4>WORKING HOURS :</h4>
-                <p style={{ fontWeight: "Bold" }}>
-                  Monday - Friday 07.30am to 16.30pm</p>
-                <p style={{ fontWeight: "Bold", color: "red" }}>
-                  Saturday - Sunday Closed</p>
+                <p style={{color : '#000B49'}}>Monday - Friday : 07.30am to 16.30pm</p>
+                <p style={{marginTop : 0, color: '#A10035'}}>Saturday - Sunday : "Closed"</p>
               </div>
               <div className="box">
                 <h4>LOCATION :</h4>
                 <p>
-                  Jl. Raya Bekasi No.KM. 22, Cakung Bar., Kec. Cakung, Kota
-                  Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910
+                  Jl. Raya Bekasi No.KM. 22, Cakung Bar. / Kecamatan Cakung, Kota
+                  Jakarta Timur/ DKI Jakarta 13910
                 </p>
               </div>
               <div className="box">

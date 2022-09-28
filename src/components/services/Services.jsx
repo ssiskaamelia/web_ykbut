@@ -1,17 +1,15 @@
 import React from "react"
 import Back from "../common/back/Back"
-import TeamCard from "./TeamCard"
+import ServiceCard from "./ServiceCard"
 import "./team.css"
-import Awrapper from "../about/Awrapper"
 import "../about/about.css"
-
-const Team = () => {
+const Service = () => {
   return (
     <>
       <Back title='SERVICES' />
       <section className='team padding'>
         <div className='container grid'>
-          {/* <TeamCard /> */}
+          <ServiceCard />
         </div>
       </section>
       {/* <Awrapper /> */}
@@ -19,4 +17,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default Service

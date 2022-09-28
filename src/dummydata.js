@@ -205,31 +205,39 @@ export const online = [
   },
 ]
 
-// Team
-export const team = [
+// Services
+export const services = [
   {
     cover: "./images/team/t1.webp",
     name: "UT SCHOOL",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
-    link:"/",
+    url: "https://www.google.com",
+    linkIg:"https://www.instagram.com/utschoolinsani/",
+    youtube:"https://www.google.com"
   },
   {
     cover: "./images/team/t1.webp",
     name: "UT D'CARE",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
-    link:"/",
+    url: "https://www.google.com",
+    linkIg:"https://www.instagram.com/utschoolinsani/",
+    youtube:"https://www.google.com"
   },
   {
     cover: "./images/team/t1.webp",
     name: "POLIKLINIK",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
-    link:"/",
+    url: "https://www.google.com",
+    linkIg:"https://www.instagram.com/utschoolinsani/",
+    youtube:"https://www.google.com"
   },
   {
     cover: "./images/team/t1.webp",
-    name: "YKBUT LEARNING CENTER",
+    name: "YLC",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
-    link:"/",
+    url: "https://www.google.com",
+    linkIg:"https://www.instagram.com/utschoolinsani/",
+    youtube:"https://www.google.com"
   },
 ]
 export const price = [
@@ -353,5 +361,85 @@ export const testimonal = [
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t3.webp",
+  },
+]
+
+export const whistleblowingsystem = [
+  {
+    desc: "Whistle Blowing System adalah mekanisme bagi yayasan/koperasi/perusahaan dalam pelaporan atas dugaan pelanggaran atau kecurangan yang berindikasi merugikan bagi yayasan/ koperasi/perusahaan atau hal-hal lain yang melanggar kode etik dan/atau peraturan perundang-undangan.",
+    desc1: "Pelapor dapat menyampaikan laporan dugaan pelanggaran kepada TKPP melalui saluran yang telah disediakan bawah ini:",
+    cover: "../../assets/image/img9.jpg",
+  },
+]
+export const GalleryData = [
+  {
+      id:1,
+      titile:"YKBUT",
+      image:"./images/a1.jpg"
+  },
+  {
+      id:2,
+      titile:"YKBUT",
+      image:"./images/a2.jpg"
+  },
+  {
+      id:3,
+      titile:"YKBUT",
+      image:"./images/a3.jpg"
+  },
+  {
+      id:4,
+      titile:"YKBUT",
+      image:"./images/a4.jpg"
+  },
+  {
+      id:5,
+      titile:"LSP ABI",
+      image:"./images/b1.jpg"
+  },
+  {
+      id:6,
+      titile:"LSP ABI",
+      image:"./images/b2.jpg"
+  },
+  {
+      id:7,
+      titile:"GSI",
+      image:"./images/c1.jpg"
+  },
+  {
+      id:8,
+      titile:"GSI",
+      image:"./images/c2.jpg"
+  },
+]
+export const ServicesData = [
+  {
+    name: "UT SCHOOL",
+    desc: "Lembaga Pendidikan Keterampilan Mekanik, Operator Alat-alat Berat serta Konstruksi Terbaik di Dunia",
+    url: "https://www.utschool.sch.id/",
+    linkIg: "https://www.instagram.com/utschoolinsani/",
+    linkYt: "https://www.youtube.com/c/UTSchoolinsani",
+  },
+  {
+    nama: "UT D'CARE",
+    desc: "Penyediaan jasa SDM bidang Administrasi dan IT berbagai perusahaan di Astra Group",
+    url: "https://dcareut.com/",
+    linkIg: "https://www.instagram.com/dcare_ut/?hl=id",
+    linkYt: "https://www.youtube.com/channel/UCDl_MyAsxJb2DIFLK8n1hng",
+  },
+  {
+    nama: "POLIKLINIK",
+    desc: "Penyediaan jasa SDM bidang Administrasi dan IT berbagai perusahaan di Astra Group",
+    url: "https://www.google.com/",
+    linkIg: "https://www.instagram.com/",
+    linkYt: "https://www.youtube.com",
+  },
+  {
+    nama: "YKBUT LEARNING CENTER",
+    desc: "Penyediaan jasa SDM bidang Administrasi dan IT berbagai perusahaan di Astra Group",
+    url: "https://ylcku.com/",
+    linkIg: "https://www.instagram.com/explore/tags/mitrabaktiut/",
+    linkYt: "https://www.youtube.com/channel/UC23eQZlbI_BavTiKZcgEcRg",
   },
 ]

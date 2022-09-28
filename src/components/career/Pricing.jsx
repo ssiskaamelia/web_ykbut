@@ -11,7 +11,7 @@ const Career = () => {
       <Back title='CAREER' />
       <section className='price padding'>
         <div className='container grid'>
-          <PriceCard />
+          {/* <PriceCard /> */}
         </div>
       </section>
       {/* <CareerInfo /> */}

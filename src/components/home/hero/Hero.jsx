@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section className="hero">
         <div className="container">
-          <div className="row">
+          <div className="row" style={{textAlign : "Left"}}>
             <Heading subtitle="" title="YAYASAN KARYA BAKTI" />
             <Heading style={{color: "FF5C8D"}} title="UNITED TRACTORS" />
             <div className="button">

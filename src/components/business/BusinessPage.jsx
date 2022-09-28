@@ -7,7 +7,7 @@ const BusinessPage = () => {
   return (
     <>
       <Back title='BUSINESS UNIT' />
-      <CoursesCard />
+      {/* <CoursesCard /> */}
       {/* <OnlineCourses /> */}
     </>
   )

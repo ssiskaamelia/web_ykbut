@@ -48,7 +48,7 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.google.com/"
+                href="https://www.youtube.com/channel/UCOsZmiEPqgyOwOPDRJYUJzg"
                 className="nav-link p-0 text-muted mx-2"
               >
                 <i className="fab fa-youtube icon"></i>
@@ -68,11 +68,21 @@ const Footer = () => {
           <div className="box link">
             <h3>Quick Links</h3>
             <ul>
-              <li>Contact Us</li>
-              <li>Career</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
+              <a href="/">
+                <li>Home Page</li>
+              </a>
+              <a href="/media">
+                <li>Our Gallery</li>
+              </a>
+              <a href="/whistleblowing">
+                <li>Whisle Blowing</li>
+              </a>
+              <a href="/career">
+                <li>FAQ</li>
+              </a>
+              <a href="/contact">
+                <li>Location</li>
+              </a>
             </ul>
           </div>
           <div className="box">
@@ -100,17 +110,17 @@ const Footer = () => {
             <h3>Have a Questions?</h3>
             <ul>
               <li>
-                <i className="fa fa-map"></i>
+                <i className="fa fa-map-marker-alt"></i>
                 Yayasan Karya Bakti UT. Jl. Raya Bekasi Km 22, Cakung. Jakarta
                 Timur 13910
               </li>
               <li>
                 <i className="fa fa-phone-alt"></i>
-                +2 392 3929 210
+                +62 000-0000-0000
               </li>
               <li>
                 <i className="fa fa-paper-plane"></i>
-                info@yourdomain.com
+                email@ykbut.co.id
               </li>
             </ul>
           </div>
